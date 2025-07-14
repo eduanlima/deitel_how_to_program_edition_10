@@ -68,6 +68,6 @@ public class ComissionEmployee {
         "comission rate", getFirstName(), getLastName(),
         "social security number", getSocialSecurityNumber(),
         "gross sales", getGrossSales(),
-        "comissin rate", getComissionRate());
+        "comission rate", getComissionRate());
     }
 }
