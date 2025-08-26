@@ -3,8 +3,8 @@ package chapter_10_polymorphism_and_interfaces;
 public class BasePlusComissionEmployee extends ComissionEmployee {
     private double baseSalary;
 
-    public BasePlusComissionEmployee(String firstName, String lastName, String socialSecurityNumber, double baseSalary) {
-        super(firstName, lastName, socialSecurityNumber);
+    public BasePlusComissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double comissionRate, double baseSalary) {
+        super(firstName, lastName, socialSecurityNumber, grossSales, comissionRate);
         
         if (baseSalary < 0.0)
             throw new IllegalArgumentException("Base salary must be >= 0.0");

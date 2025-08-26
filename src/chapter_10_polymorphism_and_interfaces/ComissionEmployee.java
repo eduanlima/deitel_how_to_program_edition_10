@@ -4,7 +4,7 @@ public class ComissionEmployee extends Employee {
     private double grossSales;
     private double comissionRate;
 
-    public ComissionEmployee(String firstName, String lastName, String socialSecurityNumber) {
+    public ComissionEmployee(String firstName, String lastName, String socialSecurityNumber, double grossSales, double comissionRate) {
         super(firstName, lastName, socialSecurityNumber);
         
         if (grossSales < 0.0)
